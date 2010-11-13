@@ -1,3 +1,5 @@
+(ns sicp)
+
 (defn average [a b] (/ (+ a b) 2.0))
 
 (defn abs [a] (if (> a 0) a (- a)))
